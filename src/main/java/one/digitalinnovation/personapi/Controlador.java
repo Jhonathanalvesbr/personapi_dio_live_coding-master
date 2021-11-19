@@ -1,8 +1,9 @@
-package com.digitaloneinovation.dio;
+package one.digitalinnovation.personapi;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import one.digitalinnovation.personapi.*;
 
 @Controller
 @RequestMapping("/v1/pokemon")

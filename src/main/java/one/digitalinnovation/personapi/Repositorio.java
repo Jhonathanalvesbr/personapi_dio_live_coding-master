@@ -1,7 +1,7 @@
-package com.digitaloneinovation.dio;
+package one.digitalinnovation.personapi;
 
 import org.springframework.data.repository.CrudRepository;
-import com.digitaloneinovation.dio.Pokemon;
+import one.digitalinnovation.personapi.Pokemon;
 
 public interface Repositorio extends CrudRepository<Pokemon, Integer> {
 }

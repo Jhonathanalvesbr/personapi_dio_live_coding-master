@@ -1,4 +1,4 @@
-package com.digitaloneinovation.dio;
+package one.digitalinnovation.personapi;
 
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
