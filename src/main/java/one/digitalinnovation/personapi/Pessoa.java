@@ -1,25 +1,28 @@
 package one.digitalinnovation.personapi;
 
-import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.time.LocalDate;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Validated
-public class Pokemon {
+public class Pessoa {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    private Integer ddd;
+    private String telefone;
     private String nome;
+    private LocalDate dataNascimento;
+    private String logradouro, endereco;
+    private Integer numeroCasa;
+    private String cep, email;
+
 }
 
