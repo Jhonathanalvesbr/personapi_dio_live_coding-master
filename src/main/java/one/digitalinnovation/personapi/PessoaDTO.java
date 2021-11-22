@@ -22,7 +22,13 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PessoaDTO {
-    private Integer id, numeroCasa, ddd;
-    private String nome, logradouro, endereco, email, cep, telefone;
+    private Integer id;
+    private String pais, estado, cidade;
+    private Integer ddd;
+    private String telefone;
+    private String nome;
     private LocalDate dataNascimento;
+    private String logradouro, endereco;
+    private Integer numeroCasa;
+    private String cep, email;
 }

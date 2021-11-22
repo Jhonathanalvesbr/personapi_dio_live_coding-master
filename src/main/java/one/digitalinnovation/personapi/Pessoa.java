@@ -16,6 +16,7 @@ import java.time.LocalDate;
 public class Pessoa {
     @Id
     private Integer id;
+    private String pais, estado, cidade;
     private Integer ddd;
     private String telefone;
     private String nome;
